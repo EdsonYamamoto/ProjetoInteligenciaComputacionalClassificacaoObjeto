@@ -15,6 +15,7 @@ from keras.layers import Dropout
 from keras.layers import LSTM
 from keras.layers import Flatten
 from keras.layers import MaxPooling2D
+from keras.layers import MaxPool2D
 from keras.layers import Conv2D
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.utils import np_utils
@@ -36,8 +37,8 @@ checkpoint = "bestModelTextGen.hdf5"
 nEpocas = 200
 steps_per_epoch = 4
 VALIDATION_SIZE = 1
-BATCH_SIZE = 32
-IMG_SIZE = 300
+BATCH_SIZE = 16
+IMG_SIZE = 200
 
 #imagePath = []
 y = []
