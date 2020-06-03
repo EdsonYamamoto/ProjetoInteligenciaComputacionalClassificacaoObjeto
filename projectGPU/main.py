@@ -34,10 +34,10 @@ from datetime import datetime
 datasetPath ="Dataset/"
 modelName = "bestmodel.h5"
 checkpoint = "bestModelTextGen.hdf5"
-nEpocas = 200
-steps_per_epoch = 4
+nEpocas = 100
+steps_per_epoch = 10
 VALIDATION_SIZE = 1
-BATCH_SIZE = 16
+BATCH_SIZE = 1
 IMG_SIZE = 200
 
 #imagePath = []
@@ -99,7 +99,7 @@ model.add(BatchNormalization())
 model.add(Dropout(0.4))
 
 model.add(Flatten())
-model.add(Dense(160, activation='relu'))
+model.add(Dense(64, activation='relu'))
 model.add(Dense(numberClasses, activation='softmax'))
 # load the network weights
 print("Fim - Arquitetura")
