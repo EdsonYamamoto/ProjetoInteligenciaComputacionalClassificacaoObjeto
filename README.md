@@ -1,5 +1,5 @@
 # Projeto de Inteligencia Computacional - Classificação de Objeto
-Objetivo do projeto é classifica as imagens apartir dos padrões oferecido pelo Museu de Harvard
+Objetivo do projeto é classifica as imagens apartir dos padrões oferecido pelo Museu de Harvard.
 
 Como demostra o site: http://apps.harvardartmuseums.org/art-explorer/
 
@@ -13,7 +13,7 @@ requirements_gpu.txt
 ## Organização dos arquivos:
 
 - **coletaDados:**
-Contém o codigo da coleta da dados
+Contém o codigo da coleta da dados.
 
 É necessario utilizar um chromedrive.exe para realizar a comunicação, é possivel obter no site abaixo:
 
@@ -28,6 +28,6 @@ Arquivo com as amostras:
 ```
 dados v2.rar
 ```
-É necessario descompacta e extrair para dentro do Dataset
+É necessario descompacta e extrair para dentro do Dataset.
 
 Dentro da pasta projetoGPU, contém graficos dos resultado do ultimo treinamento utilizando 5 classes com 100 amostra em cada.
